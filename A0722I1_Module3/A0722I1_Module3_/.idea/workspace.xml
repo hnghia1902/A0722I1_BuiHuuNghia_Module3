@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c76f6a20-5161-4cd0-b513-fafd18360be8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/A0722I1_Module3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/src/ss_01_csdl/bai_tap/quan_li_sinh_vien.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/src/ss_01_csdl/thuc_hanh/thuc_hanh_1.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/src/ss_01_csdl/thuc_hanh/thuc_hanh_2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A0722I1_Module3_/src/ss_01_csdl/thuc_hanh/thuc_hanh_3.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2IuBhfgekWFOdNEpHi66DBmN22W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nghia/Codegym_module3/A0722I1_Module3/A0722I1_Module3_&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c76f6a20-5161-4cd0-b513-fafd18360be8" name="Changes" comment="" />
+      <created>1671021710257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671021710257</updated>
+      <workItem from="1671021807048" duration="1302000" />
+      <workItem from="1671024115941" duration="39000" />
+      <workItem from="1671195922454" duration="177000" />
+      <workItem from="1671455459908" duration="84000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+</project>
