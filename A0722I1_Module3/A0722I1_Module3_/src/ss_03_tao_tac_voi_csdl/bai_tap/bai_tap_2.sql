@@ -41,6 +41,7 @@ VALUE
     select od.oID,o.oDate,sum( od.odQTY*p.pPrice ) as thanhtien
 from `Order`  o inner join OrderDetail  od on o.oID=od.oID inner join Product  p on p.pID=od.pID
 group by o.oID;
+
     
     
     
