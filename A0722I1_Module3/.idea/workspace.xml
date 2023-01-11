@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c76f6a20-5161-4cd0-b513-fafd18360be8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_06_css/bai_tap/bt_2/bt2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss_06_css/bai_tap/bt_2/bt2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss_06_css/bai_tap/bt_nhung_css/gg.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss_07_thiet_ke_bo_cuc_trang_web/bai_tap/web_xem_hoat_hinh.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../A0722I1_Module3_/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../A0722I1_Module3_/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../A0722I1_Module3_/.idea/modules.xml" beforeDir="false" />
@@ -28,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -52,6 +52,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/codegym/A0722I1_Module3&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,6 +72,11 @@
       <workItem from="1671195891331" duration="29000" />
       <workItem from="1673008383852" duration="6695000" />
       <workItem from="1673171302425" duration="692000" />
+      <workItem from="1673261636500" duration="11293000" />
+      <workItem from="1673333135670" duration="30000" />
+      <workItem from="1673440310135" duration="1134000" />
+      <workItem from="1673441500943" duration="654000" />
+      <workItem from="1673442182917" duration="3818000" />
     </task>
     <servers />
   </component>
