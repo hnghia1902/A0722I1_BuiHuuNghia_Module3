@@ -25,7 +25,7 @@
         </tr>
         <tr>
             <td colspan="2">
-                ${DescriptionAmount}
+                ${DiscountAmount}
             </td>
         </tr>
     </table>

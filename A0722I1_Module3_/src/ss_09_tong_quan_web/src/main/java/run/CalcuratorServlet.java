@@ -27,10 +27,10 @@ public class CalcuratorServlet extends HttpServlet {
     protected void calculator(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException{
         String description = request.getParameter("description");
         Double price = Double.parseDouble(request.getParameter("price"));
-        Double amount = Double.parseDouble(request.getParameter("amount"));
-        Double discountamount = price * amount * 0.01;
-        String DescriptionAmount = ("Product Description: "+description+", Discount Amount : " + discountamount);
-        request.setAttribute("DescriptionAmount", DescriptionAmount);
+        Double percent = Double.parseDouble(request.getParameter("amount"));
+        Double discountamount = price * percent * 0.01;
+        String discountAmount = ("Product Description: "+description+", Discount Amount : " + discountamount);
+        request.setAttribute("DiscountAmount", discountAmount);
         request.getRequestDispatcher("/index.jsp").forward(request,response);
     }
     protected void reset(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException{
