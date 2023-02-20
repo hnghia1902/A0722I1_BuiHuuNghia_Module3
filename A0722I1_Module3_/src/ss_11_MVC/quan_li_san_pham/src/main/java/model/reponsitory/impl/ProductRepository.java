@@ -31,5 +31,14 @@ public class ProductRepository implements IProductRepository {
         return productList;
     }
 
+    @Override
+    public void editProduct(Product product) {
+        productList.set(product.getId()-1, product);
+    }
+
+    @Override
+    public void deleteId(Product product) {
+        productList.remove(product.getId()-1);
+    }
 
 }

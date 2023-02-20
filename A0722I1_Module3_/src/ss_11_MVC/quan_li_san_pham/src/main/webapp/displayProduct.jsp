@@ -38,6 +38,11 @@
             <td>${product.producer}</td>
         </tr>
     </c:forEach>
+    <tr>
+        <td><a href="findID.jsp">Find</a></td>
+        <td><a href="update.jsp">Edit</a></td>
+        <td><a href="delete.jsp">Edit</a></td>
+    </tr>
     </tbody>
 </table>
 </body>

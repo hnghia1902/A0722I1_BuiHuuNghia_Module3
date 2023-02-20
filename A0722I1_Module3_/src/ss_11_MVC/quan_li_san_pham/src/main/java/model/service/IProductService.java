@@ -8,5 +8,7 @@ public interface IProductService {
     List<Product> display();
     void create(Product product);
     Product findId(int id);
+    void editProduct(Product product);
+    void deleteId(Product product);
 
 }

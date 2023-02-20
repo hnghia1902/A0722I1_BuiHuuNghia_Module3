@@ -39,9 +39,10 @@
     </tr>
     <tr>
       <td><button type="submit" name="action" value="create">Create</button></td>
-      <td></td>
     </tr>
+    <input type="hidden" name="action" value="display">
   </table>
+
 </form>
 </body>
 </html>

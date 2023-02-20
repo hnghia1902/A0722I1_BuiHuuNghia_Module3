@@ -23,26 +23,26 @@
         </thead>
         <tr>
             <td class="sp">Nhập id cần sửa : </td>
-            <td><input type="number" name="id"></td>
+            <td><input type="number" name="Eid"></td>
         </tr>
         <tr>
             <td class="sp">Nhập lại tên : </td>
-            <td><input type="text" name="name"></td>
+            <td><input type="text" name="Ename"></td>
         </tr>
         <tr>
             <td class="sp">Nhập lại giá : </td>
-            <td><input type="number" name="price"></td>
+            <td><input type="number" name="Eprice"></td>
         </tr>
         <tr>
             <td class="sp">Nhập lại Product Description : </td>
-            <td><input type="text" name="productDescription"></td>
+            <td><input type="text" name="EproductDescription"></td>
         </tr>
         <tr>
             <td class="sp">Nhập lại Producer : </td>
-            <td><input type="text" name="producer"></td>
+                <td><input type="text" name="Eproducer"></td>
         </tr>
         <tr>
-            <td class="sp"><button type="submit" value="edit">Edit</button></td>
+            <td class="sp"><button type="submit" name="action" value="edit">Edit</button></td>
             <td>////////////</td>
         </tr>
 

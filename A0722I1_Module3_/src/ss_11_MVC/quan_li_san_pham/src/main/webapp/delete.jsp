@@ -14,11 +14,11 @@
 <form action="/Product" method="post">
   <table border="1">
     <tr>
-      <td width="200px">Product ID Edit: </td>
-      <td><input type="number" name="findId"></td>
+      <td width="200px">Product ID Delete: </td>
+      <td><input type="number" name="delete"></td>
     </tr>
     <tr>
-      <td><button type="submit" name="action" value="findId" style="width: 199px">Find</button></td>
+      <td><button type="submit" name="action" value="deleteId" style="width: 199px">Delete</button></td>
     </tr>
   </table>
 </form>

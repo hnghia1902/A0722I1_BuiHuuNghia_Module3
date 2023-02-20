@@ -32,6 +32,9 @@
     <td>${product.productDescription}</td>
     <td>${product.producer}</td>
   </tr>
+  <tr>
+    <td colspan="5"><button name="action" value="edit" type="submit" style="width: 500px"><a href="update.jsp" style="color: black">Edit</a></button></td>
+  </tr>
   </tbody>
 </table>
 </body>

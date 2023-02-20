@@ -35,6 +35,16 @@ public class ProductService implements IProductService {
         return null;
     }
 
+    @Override
+    public void editProduct(Product product) {
+        productRepository.editProduct(product);
+    }
+
+    @Override
+    public void deleteId(Product product) {
+        productRepository.deleteId(product);
+    }
+
 
 }
 

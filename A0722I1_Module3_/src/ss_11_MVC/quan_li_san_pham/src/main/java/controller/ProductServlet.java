@@ -9,6 +9,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 
+
 @WebServlet(name = "ProductServlet", value = "/Product")
 public class ProductServlet extends HttpServlet {
     private static IProductService productService = new ProductService();
@@ -44,9 +45,35 @@ public class ProductServlet extends HttpServlet {
                 break;
             case "findId":
                 findId(request, response);
-
+            break;
+            case"edit":
+                update(request, response);
+                break;
+            case "deleteId":
+                delete(request, response);
+                break;
         }
     }
+
+    private void delete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int id = Integer.parseInt(request.getParameter("delete"));
+        Product product = new Product(id);
+        productService.deleteId(product);
+        display(request, response);
+    }
+
+    private void update(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int id = Integer.parseInt(request.getParameter("Eid"));
+        String name = request.getParameter("Ename");
+        int price = Integer.parseInt(request.getParameter("Eprice"));
+        String description = request.getParameter("EproductDescription");
+        String producer = request.getParameter("Eproducer");
+
+        Product product = new Product(id,name,price,description,producer);
+        productService.editProduct(product);
+        display(request, response);
+    }
+
 
     private void findId(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int findId = Integer.parseInt(request.getParameter("findId"));
@@ -65,8 +92,6 @@ public class ProductServlet extends HttpServlet {
 
         Product product = new Product(id,name,price,description,producer);
         productService.create(product);
-        display(request,response);
-
     }
 
 }
