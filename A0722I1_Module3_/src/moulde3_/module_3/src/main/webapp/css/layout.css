@@ -1,0 +1,36 @@
+body{
+    font-family: "Times New Roman";
+}
+#main{
+    width: 1260px;
+    height: 540px;
+    margin: 0px;
+    background: white;
+}
+#head1{
+    height: 15%;
+    background: white;
+    margin: 0;
+    border: 1px solid black ;
+}
+#head2{
+    height: 10%;
+    background: white;
+    margin: 0;
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 10px;
+}
+#content{
+    height: 75%;
+    border: 1px solid black;
+    margin: 0;
+    background: white;
+
+}
+.text_space{
+    padding-left: 100px;
+}
+.text_space_right{
+    padding-right: 100px;
+}

@@ -1,0 +1,56 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: DELL
+  Date: 22/02/2023
+  Time: 4:43 CH
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<%--
+  Created by IntelliJ IDEA.
+  User: DELL
+  Date: 22/02/2023
+  Time: 2:19 CH
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+  <title>Title</title>
+</head>
+<link rel="stylesheet" href="css/layout.css">
+<body>
+<form>
+  <div id="main">
+    <div id="head"></div>
+    <div id="head2">
+      <span class="space">Home</span>
+      <span class="space">Employee</span>
+      <span class="space">Customer</span>
+      <span class="space">Service</span>
+      <span class="space">Contract</span>
+      <input type="submit" STYLE="font-size: 22px; float: right" name="action">
+      <input type="text" STYLE="font-size: 22px; float: right" placeholder="search">
+
+    </div>
+    <div id="left">
+      <span>1</span><br>
+      <span>2</span><br>
+      <span>3</span><br>
+    </div>
+    <div id="content">
+
+    </div>
+    <div id="footer">Footer</div>
+  </div>
+</form>
+</body>
+</html>
+
+</body>
+</html>

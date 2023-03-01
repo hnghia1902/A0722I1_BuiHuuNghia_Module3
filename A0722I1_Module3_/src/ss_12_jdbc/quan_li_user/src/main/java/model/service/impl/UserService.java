@@ -4,7 +4,6 @@ import model.User;
 import model.repository.IUserRepository;
 import model.repository.impl.UserRepository;
 import model.service.IUserService;
-import org.omg.PortableServer.IdUniquenessPolicy;
 
 import java.util.List;
 
@@ -29,5 +28,21 @@ public class UserService implements IUserService {
     public void updateUser(User user) {
         iUserRepository.updateUser(user);
     }
+
+    @Override
+    public List<User> selectUser_by_country(String country) {
+        return iUserRepository.selectUser_by_country(country);
+    }
+
+    @Override
+    public List<User> sort() {
+        return iUserRepository.sort();
+    }
+
+    @Override
+    public void deleteUser(int id) {
+        iUserRepository.deleteUser(id);
+    }
+
 
 }

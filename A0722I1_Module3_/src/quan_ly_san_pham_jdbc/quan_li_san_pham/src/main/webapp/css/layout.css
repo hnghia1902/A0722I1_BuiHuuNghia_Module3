@@ -1,0 +1,51 @@
+body{
+    font-family: "Times New Roman";
+    background: white;
+}
+#main{
+    width: 1222px;
+    height: 492px;
+    margin-top: 0;
+    padding: 0;
+}
+#head{
+    height: 10%;
+    background: white;
+    padding: 20px;
+    margin: 0;
+    border: 1px solid black;
+}
+#head2{
+    height: 5%;
+    background: white;
+    padding: 15px;
+    margin: 0;
+    border: 1px solid black;
+    font-size: 22px
+}
+#left{
+    float: left;
+    background: white;
+    border: 1px solid black;
+    margin: 0;
+    width: 20%;
+    height: 75%;
+}
+#content{
+    float: right;
+    background: white;
+    border: 1px solid black;
+    margin: 0;
+    width: 79.59%;
+    height: 75%;
+}
+#footer{
+    background: white;
+    border: 1px solid white;
+    margin: 0;
+    height: 10.5%;
+    clear: both;
+}
+.space{
+    padding-left: 40px;
+}

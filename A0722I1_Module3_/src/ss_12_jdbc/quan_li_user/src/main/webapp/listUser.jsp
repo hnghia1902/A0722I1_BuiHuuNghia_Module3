@@ -9,7 +9,9 @@
 <center>
     <h1>User Management</h1>
     <h2>
-        <a href="/User?action=createUser">Add New User</a>
+        <a href="/User?action=createUser">Add New User</a><br>
+        <a href="/User?action=find_by_country">Find User by Country</a><br>
+        <a href="/User?action=Sort">Sort User By Name</a>
     </h2>
 </center>
 <div align="center">

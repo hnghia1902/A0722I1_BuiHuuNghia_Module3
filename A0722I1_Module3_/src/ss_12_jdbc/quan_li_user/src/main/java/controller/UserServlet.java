@@ -30,8 +30,37 @@ public class UserServlet extends HttpServlet {
             case "edit":
                 editForm(request, response);
                 break;
+            case "find_by_country":
+                find_by_country_form(request, response);
+                break;
+            case "Sort":
+                sort(request, response);
+                break;
+            case "delete":
+                deleteUser(request, response);
+                break;
         }
     }
+
+    private void sort(HttpServletRequest request, HttpServletResponse response) {
+        request.setAttribute("listUser",iUserService.sort());
+        try {
+            request.getRequestDispatcher("listUser.jsp").forward(request, response);
+        } catch (ServletException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void find_by_country_form(HttpServletRequest request, HttpServletResponse response) {
+        try {
+            response.sendRedirect("findCountry.jsp");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
     private void editForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int id = Integer.parseInt(request.getParameter("id"));
@@ -39,6 +68,7 @@ public class UserServlet extends HttpServlet {
         RequestDispatcher dispatcher = request.getRequestDispatcher("edit.jsp");
         request.setAttribute("user", user);
         dispatcher.forward(request, response);
+
 
     }
 
@@ -48,6 +78,11 @@ public class UserServlet extends HttpServlet {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+    private void deleteUser(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        iUserService.deleteUser(id);
+        response.sendRedirect("/User?action=showListUser");
     }
 
     private void showListUser(HttpServletRequest request, HttpServletResponse response) {
@@ -74,9 +109,14 @@ public class UserServlet extends HttpServlet {
             case "Save":
                 updateUser(request, response);
                 break;
+            case "Find":
+                find_by_country(request, response);
+                break;
         }
 
     }
+
+
 
     private void updateUser(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
@@ -102,6 +142,17 @@ public class UserServlet extends HttpServlet {
         iUserService.create(user);
         try {
             response.sendRedirect("/User?action=showListUser");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    private void find_by_country(HttpServletRequest request, HttpServletResponse response) {
+        String country = request.getParameter("country");
+        request.setAttribute("listUser", iUserService.selectUser_by_country(country));
+        try {
+            request.getRequestDispatcher("listUser.jsp").forward(request, response);
+        } catch (ServletException e) {
+            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
